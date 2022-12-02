@@ -22,9 +22,12 @@ def score_round(p1_value, p2_value):
     """
     outcome = p2_value-p1_value
     if outcome in {1, -2}:
+        # win case
         return p2_value + 6
     if not outcome:
+        # tie case
         return p2_value + 3
+    # loss case
     return p2_value
 
 if __name__ == "__main__":
