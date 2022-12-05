@@ -1,5 +1,5 @@
 from utils import read_input
-from day_2_solution_1 import score_round
+from day_02_solution_01 import score_round
 
 move_values = {
     "A": 1,
