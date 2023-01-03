@@ -1,6 +1,4 @@
 from utils import read_input
-from collections import defaultdict
-
 
 
 def move_tail(head, tail):
